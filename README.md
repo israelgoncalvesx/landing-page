@@ -4,6 +4,11 @@
 
 ![gif](https://github.com/user-attachments/assets/7cce1e21-ce65-4d00-a76b-e74f76640c8a)
 
+## 🚀 Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://landing-page-eta-three-68.vercel.app/)
+
+**[Acessar a versão ao vivo](https://seu-link-do-projeto.vercel.app)**
 
 ## ✒️ Sobre o Projeto
 
