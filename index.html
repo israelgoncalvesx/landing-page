@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chanel Nº5</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="chanel_logo.png" alt="Logo Chanel Nº5">
+        </div>
+        <nav class="navegacao-desktop">
+            <a href="#apresentacao" class="link-menu">Sobre</a>
+            <a href="#depoimentos" class="link-menu">Depoimentos</a>
+            <a href="#historia" class="link-menu">História</a>
+            <a href="#catalogo" class="link-menu">Produtos</a>
+        </nav>
+        <div class="botao-desktop">
+            <button class="botao-chamada">Compre Agora</button>
+        </div>
+        <button class="botao-menu-mobile" aria-label="Abrir menu">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <nav class="navegacao-mobile">
+        <button class="botao-fechar-menu" aria-label="Fechar menu">&times;</button>
+        <a href="#apresentacao" class="link-menu-mobile">Sobre</a>
+        <a href="#depoimentos" class="link-menu-mobile">Depoimentos</a>
+        <a href="#historia" class="link-menu-mobile">História</a>
+        <a href="#catalogo" class="link-menu-mobile">Produtos</a>
+        <button class="botao-chamada">Compre Agora</button>
+    </nav>
+
+    <main>
+        <section id="apresentacao" class="apresentacao">
+            <div class="imagem">
+                <div class="carrossel-conteudo">
+                    <img src="perfume1.png" alt="Imagem do Perfume Chanel Nº5 - 1" class="carrossel-item">
+                    <img src="perfume2.png" alt="Imagem do Perfume Chanel Nº5 - 2" class="carrossel-item">
+                    <img src="perfume3.png" alt="Imagem do Perfume Chanel Nº5 - 3" class="carrossel-item">
+                    <img src="perfume4.png" alt="Imagem do Perfume Chanel Nº5 - 4" class="carrossel-item">
+                </div>
+                <button id="botaoAnterior" class="carrossel-botao anterior">&#10094;</button>
+                <button id="botaoProximo" class="carrossel-botao proximo">&#10095;</button>
+                <div class="carrossel-pontos"></div>
+            </div>
+            <div class="texto-direita">
+                <h1 class="titulo">Chanel N°5</h1>
+                <p class="texto-apresent">Mais que um perfume, uma herança. Descubra a fragrância atemporal que definiu a feminilidade para gerações. Uma gota é o suficiente para vestir a pele com a elegância e o mistério que só o N° 5 possui.</p>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="depoimentos">
+            <h2 class="titulo-secao">Depoimentos</h2>
+            <div class="depoimento-container fundo-marilyn elemento-animado deslizar-da-esquerda">
+                <div class="texto-sobreposto-depoimento">
+                    <p class="citacao">"Sempre me perguntam o que uso quando quero me sentir realmente eu mesma. A resposta é simples: algumas gotinhas de Chanel Nº 5. Não é só perfume — é como vestir um pouco de confiança, uma espécie de segredo que me acompanha quando as luzes se apagam."</p>
+                    <p class="assinatura">- Marilyn Monroe</p>
+                </div>
+            </div>
+            <div class="depoimento-container fundo-bette elemento-animado deslizar-da-direita">
+                <div class="texto-sobreposto-depoimento alinhado-direita">
+                    <p class="citacao">"Subir ao palco exige coragem, e uma mulher precisa de aliados invisíveis. Chanel Nº 5 é esse aliado: uma aura de mistério e poder que ninguém vê, mas todos sentem."</p>
+                    <p class="assinatura">- Bette Davis</p>
+                </div>
+            </div>
+            <div class="depoimento-container fundo-elizabeth elemento-animado deslizar-da-esquerda">
+                <div class="texto-sobreposto-depoimento">
+                    <p class="citacao">"As câmeras captam a imagem, mas o perfume guarda a essência. Chanel Nº 5 transforma uma entrada comum em uma cena memorável. E eu gosto de viver assim: cinematograficamente."</p>
+                    <p class="assinatura">- Elizabeth Taylor</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia" class="historia">
+            <h2 class="titulo-secao">História</h2>
+            <div class="historia-container fundo-coco elemento-animado deslizar-da-esquerda">
+                <div class="texto-sobreposto-historia alinhado-direita">
+                    <p class="historia-texto">"Numa noite em Paris, cercada de frascos de essências, misturei flores, notas cítricas e um toque misterioso que lembrava a pele depois de um abraço. Quando experimentei a quinta fórmula, soube imediatamente: era esse. O número cinco sempre foi meu amuleto — e seria também o nome do meu perfume. Chanel Nº 5 não nasceu para agradar. Nasceu para marcar presença. Ele não é um acessório; é uma declaração. Quando uma mulher o usa, não precisa de mais nada para ser lembrada."</p>
+                    <p class="historia-assinatura">- Coco Chanel</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo" class="catalogo">
+            <h2 class="titulo-secao">Nossos Clássicos</h2>
+            <div class="grade-produtos elemento-animado deslizar-de-baixo">
+                <div class="cartao-produto">
+                    <img src="perfume1-1.png" alt="Chanel Nº 5 Clássico" class="imagem-produto">
+                    <h3 class="nome-produto">Chanel Nº 5 Clássico</h3>
+                    <button class="botao-chamada botao-abrir-modal" 
+                            data-modal-img="perfume1-1.png" 
+                            data-modal-titulo="Chanel Nº 5 Clássico"
+                            data-modal-texto="Um ícone atemporal, criado para traduzir a essência da elegância. Seu perfume abre com notas frescas e cintilantes, que logo se transformam em um buquê floral delicado e envolvente. No fundo, um toque quente e sensual de almíscar e baunilha cria uma assinatura inesquecível. Chanel Nº 5 não é apenas um perfume, é uma experiência: sofisticada, marcante e eternamente feminina.">
+                        Mais informações
+                    </button>
+                </div>
+                <div class="cartao-produto">
+                    <img src="perfume2.png" alt="Chanel Nº 5 Lumière" class="imagem-produto">
+                    <h3 class="nome-produto">Chanel Nº 5 Lumière</h3>
+                    <button class="botao-chamada botao-abrir-modal"
+                            data-modal-img="perfume2.png"
+                            data-modal-titulo="Chanel Nº 5 Lumière"
+                            data-modal-texto="Uma nova interpretação do ícone eterno. Fresco, luminoso e delicadamente moderno, Chanel Nº 5 Lumière revela notas cítricas vibrantes, que se fundem a um coração floral suave. Leve como a brisa, mas sofisticado como um gesto de elegância, é o perfume para quem busca a essência do clássico em uma versão radiante e contemporânea.">
+                        Mais informações
+                    </button>
+                </div>
+                <div class="cartao-produto">
+                    <img src="perfume3.png" alt="Chanel Nº 5 Rouge Élégance" class="imagem-produto">
+                    <h3 class="nome-produto">Chanel Nº 5 Rouge Élégance</h3>
+                    <button class="botao-chamada botao-abrir-modal"
+                            data-modal-img="perfume3.png"
+                            data-modal-titulo="Chanel Nº 5 Rouge Élégance"
+                            data-modal-texto="Uma interpretação ousada do clássico eterno. Chanel Nº 5 Rouge Élégance envolve a pele com notas quentes e envolventes, onde flores luminosas se encontram com toques orientais e amadeirados. Intenso, sofisticado e apaixonante, é o perfume que revela a força e o magnetismo da feminilidade. Um símbolo de poder e sedução em cada gota.">
+                        Mais informações
+                    </button>
+                </div>
+                <div class="cartao-produto">
+                    <img src="perfume4.png" alt="Chanel Nº 5 Pure Essence" class="imagem-produto">
+                    <h3 class="nome-produto">Chanel Nº 5 Pure Essence</h3>
+                    <button class="botao-chamada botao-abrir-modal"
+                            data-modal-img="perfume4.png"
+                            data-modal-titulo="Chanel Nº 5 Pure Essence"
+                            data-modal-texto="Uma joia de frescor em frasco contemporâneo. Chanel Nº 5 Pure Essence traduz a leveza em sua forma mais elegante: notas cítricas cristalinas se misturam a um coração floral delicado, envolto em um rastro suave e radiante. Minimalista, moderno e refrescante, é a escolha perfeita para quem deseja o espírito do clássico em uma versão luminosa e jovem.">
+                        Mais informações
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div id="modalProduto" class="modal">
+        <div class="modal-conteudo">
+            <span class="modal-fechar">&times;</span>
+            <div class="modal-container-imagem">
+                <img src="" alt="Imagem do Produto" id="imagemModalProduto">
+            </div>
+            <div class="modal-container-texto">
+                <h2 id="tituloModalProduto"></h2>
+                <p id="textoModalProduto"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer class="rodape">
+        <div class="rodape-container">
+            <div class="rodape-coluna">
+                <img src="chanel_logo.png" alt="Logo Chanel" class="logo-rodape">
+                <p class="direitos-autorais">&copy; 2025 Chanel. Todos os direitos reservados.</p>
+            </div>
+            <div class="rodape-coluna">
+                <h4 class="titulo-rodape">Navegação</h4>
+                <a href="#apresentacao" class="link-rodape">Sobre</a>
+                <a href="#depoimentos" class="link-rodape">Depoimentos</a>
+                <a href="#historia" class="link-rodape">História</a>
+                <a href="#catalogo" class="link-rodape">Produtos</a>
+            </div>
+            <div class="rodape-coluna">
+                <h4 class="titulo-rodape">Siga-nos</h4>
+                <a href="#" class="link-rodape">Instagram</a>
+                <a href="#" class="link-rodape">Facebook</a>
+                <a href="#" class="link-rodape">YouTube</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
