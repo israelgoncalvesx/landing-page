@@ -2,8 +2,7 @@
 
 # Landing Page - Chanel Nº5
 
-![gif](https://github.com/user-attachments/assets/e9ccd243-b145-472a-9a74-8ac40e3a6ae0)
-
+![gif](https://github.com/user-attachments/assets/7cce1e21-ce65-4d00-a76b-e74f76640c8a)
 
 
 ## ✒️ Sobre o Projeto
